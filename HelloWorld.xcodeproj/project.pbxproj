@@ -12,6 +12,7 @@
 		47FDFA5A2222156400F102AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FDFA582222156400F102AD /* Main.storyboard */; };
 		47FDFA5C2222156800F102AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FDFA5B2222156800F102AD /* Assets.xcassets */; };
 		47FDFA5F2222156800F102AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FDFA5D2222156800F102AD /* LaunchScreen.storyboard */; };
+		47FDFA682222183700F102AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FDFA662222183700F102AD /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		47FDFA5B2222156800F102AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47FDFA5E2222156800F102AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47FDFA602222156800F102AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FDFA672222183700F102AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HelloWorld/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		47FDFA482222156400F102AD = {
 			isa = PBXGroup;
 			children = (
+				47FDFA662222183700F102AD /* Main.storyboard */,
 				47FDFA532222156400F102AD /* HelloWorld */,
 				47FDFA522222156400F102AD /* Products */,
 			);
@@ -125,6 +128,7 @@
 				47FDFA5F2222156800F102AD /* LaunchScreen.storyboard in Resources */,
 				47FDFA5C2222156800F102AD /* Assets.xcassets in Resources */,
 				47FDFA5A2222156400F102AD /* Main.storyboard in Resources */,
+				47FDFA682222183700F102AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +161,14 @@
 				47FDFA5E2222156800F102AD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		47FDFA662222183700F102AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FDFA672222183700F102AD /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,6 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
